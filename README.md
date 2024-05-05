@@ -1,3 +1,3 @@
-# $${\color{blue}Tutorial /space Expo /space untuk /space React /space Native /space Part /space 1}$$
+# Tutorial Expo untuk React Native part 1 ✨
 
 

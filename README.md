@@ -1,6 +1,6 @@
 # Tutorial Expo untuk React Native part 1 ✨
 
-### Halo para developer pemula,
+## Instalasi Expo CLI
 
 ![image](https://github.com/Ladybert/ReactNative-Expo-Tutorial-Part-1/assets/137638007/2a0bde07-d5e2-4a7c-88f3-a27321000aba)
 
@@ -21,8 +21,16 @@ npm install -g expo-cli
 
 Setelah Expo CLI terinstal, kita bisa mulai membuat proyek Expo baru dengan menjalankan perintah expo init nama_projek. Kemudian, Expo akan memandu kita untuk memilih template proyek dan menyiapkan proyek tersebut.
 
-Setelah proyek dibuat, kita bisa masuk ke direktori proyek dan menjalankan perintah expo start untuk memulai server pengembangan Expo. Ini akan membuka Metro Bundler di browser dan menyediakan QR code yang bisa dipindai menggunakan aplikasi Expo Go pada perangkat Android kita.
-
-Dengan menjalankan Expo Go dan memindai QR code tersebut, kita bisa melihat aplikasi yang sedang kita kembangkan langsung di perangkat Android kita!
-
 Ini adalah langkah awal yang perlu kita lakukan untuk memulai pengembangan aplikasi Android menggunakan Expo. Selanjutnya, kita bisa mulai mengeksplorasi berbagai fitur dan kemampuan Expo untuk memperluas dan meningkatkan aplikasi kita.
+
+
+## Instalasi Proyek Expo menggunakan CLI
+
+
+![proyek expo](https://github.com/Ladybert/ReactNative-Expo-Tutorial-Part-1/assets/137638007/09024e9c-5f0e-4390-8305-423d8280b656)
+
+
+
+
+
+

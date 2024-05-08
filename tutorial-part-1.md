@@ -30,7 +30,28 @@ Ini adalah langkah awal yang perlu kita lakukan untuk memulai pengembangan aplik
 ![proyek expo](https://github.com/Ladybert/ReactNative-Expo-Tutorial-Part-1/assets/137638007/09024e9c-5f0e-4390-8305-423d8280b656)
 
 
+Bila anda telah selesai menginstalasi expo cli, maka anda dapat memulai instalasi proyek melalui prompt di bawah ini. Dapat digunakan pada powershell, cmd, dll :
+```poweshell
+npx create-expo-app@latest
+```
 
+you juga bisa menambahkan flag **--template** di belakang prompt untuk menggunakan template yang di sediakan pada expo. sebagaimana mestinya hal ini hanya bersifat opsional, bolehb anda gunakan ataupun tidak juga tidak masalah.
+Lakukan test untuk mengetahui apakah proyek anda dapat digunakan dalam lingkup pengembangan. Dengan menggunakan perintah berikut untuk memulai tahap development anda :
+```vscode
+npx expo start 
+```
 
+perintah ini sebelumnya sudah terkonfigurasi saat pemasangan proyek, untuk itu coba anda check pada file **package.json** untuk memastikan apakah perintah tersbeut sesuai dengan isi script pada file tersebut. Harusnya mendapati kondisi prompt script berikut :
 
+![default script as package json](https://github.com/Ladybert/ReactNative-Expo-Tutorial/assets/137638007/d160a8a6-3180-4d79-b9df-ece529880f42)
+
+NB : Bila anda mengalami masalah error pada terminal atau mendapati message error pada aplikasi expo bila saat menjalankannya anda dapat mencantumkan **--tunnel** pada file **package.json** anda tepatnya pada bagian **script**. Berikut ini adalah contoh penerapannya :
+
+![modifyed script as tunnel for expo](https://github.com/Ladybert/ReactNative-Expo-Tutorial/assets/137638007/360a4fd0-ed0d-401a-ac7c-b6ab902f788a)
+
+Solusi di atas relevan bila error yang di dapat seperti demikian : 
+
+![error message on Android](https://user-images.githubusercontent.com/6944394/218597585-98a52f4f-b5d0-4858-a07b-12cdcb56ea68.png)
+
+![error message on Android](https://user-images.githubusercontent.com/6944394/218598005-3f2f0a40-f256-4469-a76e-4cad0fea6c17.png)
 
